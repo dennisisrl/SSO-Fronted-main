@@ -1,0 +1,22 @@
+.titulo-login {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.titulo-inicio-sesion {
+    color: red;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 7%;
+    text-decoration:underline
+}
+

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    
+}
+
+body{
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side-menu{
+    position: fixed;
+    background-color: rgb(70, 70, 70);
+    width: 230px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    transition: width .2s ease-in;
+}
+
+.side-menu.inactive{
+    width: 110px;
+}
+
+.side-menu .top-section{
+    position: relative;
+}
+
+.side-menu .top-section .logo-gadm{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 2px;
+}
+
+.side-menu .top-section .logo-gadm img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.side-menu .top-section .flecha-atras-menu{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%);
+}
+
+.side-menu.inactive .top-section .flecha-atras-menu{
+    right: -60px;
+    color:rgb(70, 70, 70);
+}
+
+.side-menu .menu-principal .menu-item{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.side-menu .menu-principal{
+    margin: 15px 0;
+}
+
+.side-menu .menu-principal .menu-item span{
+    position: absolute;
+    display: inline-block;
+    line-height: 40px;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+
+}
+
+.side-menu .menu-principal .menu-item.active{
+    background: #666;
+    border-radius: 5px;
+    color: white;
+}
+
+.side-menu.inactive .menu-principal .menu-item span{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.side-menu .menu-principal .menu-item .menu-icono{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background: white;
+  
+}
+
+.side-menu-footer{
+    width: 100%;
+    height: 40px;
+    background: rgb(44, 51, 231);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:rgb(255, 255, 255);
+}
+
+.side-menu-footer .exit-footer{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.side-menu-footer .exit{
+    display: inline-block;
+    margin: 5px 0px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+}
+
+.side-menu.inactive .side-menu-footer .exit{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.side-menu-footer .exit h5{
+    font-size: 20px;
+}
+
+.container{
+    margin-left: 240px;
+    transition: margin-left .2s ease-in;
+    padding: 50px;
+}
+
+.container.inactive{
+    margin-left: 120px;
+}
+

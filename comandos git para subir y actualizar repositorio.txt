@@ -1,0 +1,9 @@
+//para actualizar el repositorio
+git pull
+
+//para subir cambios en la rama master, es malo usar cada uno una rama
+git status
+git add .
+git commit -m "valen verga :v ya esta lo mio"
+git push origin main
+git log --oneline 
