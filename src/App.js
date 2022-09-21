@@ -17,6 +17,7 @@ function App() {
 
   return (
      <div className="App">
+
       
       <Router>
         <SideMenu onCollapse={(inactive)=>{
@@ -34,7 +35,6 @@ function App() {
           <Route path={'/Reportes'}>
             <Reportes />
             </Route>
-
         </Switch>
         </div>
       </Router>

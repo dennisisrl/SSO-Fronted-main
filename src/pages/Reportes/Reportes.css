@@ -10,6 +10,7 @@
     font-size: 20;
     font-weight: bold;
     
+    
 
 }
 
@@ -24,14 +25,37 @@
 
 .piepagina{
     background-color: #4c54af; 
-    width: 94%;
+    width: auto;
+    height: 40px;
     text-align: center;
     color: white;
     padding: 1px 32px;
+    justify-content: center;
     
     
     border-radius: 10px;
     margin-top: 5mm;
-  
+ 
+}
+.piepagina > p{
+
+    margin-top: 2mm;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
     
+}
+
+.encabezado > .logoprovincia{
+    width: 10%;
+    height: 100px; /*verificar sino borrar*/
+    margin: 5px;
+      
+   
+}
+.encabezado > .tituloreporte{
+    width: 90%;
+    margin: 5px;
+    line-height: 35px;
 }
