@@ -8,9 +8,7 @@
 .tituloreporte h1 {
     justify-content: center;
     font-size: 20;
-    font-weight: bold;
-    
-    
+    font-weight: bold;    
 
 }
 
@@ -20,6 +18,15 @@
     background-color: rgb(228, 222, 222);
     border-radius: 15px;
 
+
+}
+
+.minimenu{
+    width: 10 cm;
+    height: 10vh;
+    background-color: rgb(168, 159, 159);
+   
+   border-radius: 10px;  
 
 }
 
@@ -49,13 +56,13 @@
 
 .encabezado > .logoprovincia{
     width: 10%;
-    height: 100px; /*verificar sino borrar*/
-    margin: 5px;
-      
-   
+    height: 100px; 
+    margin: 5px;       
 }
+
 .encabezado > .tituloreporte{
     width: 90%;
     margin: 5px;
     line-height: 35px;
 }
+
