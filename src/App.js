@@ -7,6 +7,10 @@ import Eventos from './pages/nav/components/eventos.tsx';
 import MisDatos from './pages/nav/components/MisDatos';
 import Reportes from './pages/Reportes/Reportes';
 
+import Gestion from  './pages/Reportes/components/Gestion_talento';
+import Archivo from './pages/Reportes/components/gestion_finaciera';
+import GestionC from '../src/pages/Reportes/components/gestion_cumunicacion';
+
 import './App.css';
 import Login from './pages/Login/Login';
 
@@ -35,10 +39,21 @@ function App() {
           <Route path={'/Reportes'}>
             <Reportes />
             </Route>
+            <Route path={'/gestion_finaciera'}>
+            <Gestion />
+            </Route>
+            <Route path={'/gestion_talento'}>
+            <Archivo />
+            </Route>
+            <Route path={'/gestion_comunicacion'}>
+            <GestionC />
+            </Route>
+           
         </Switch>
         </div>
       </Router>
      </div>
+    
     
   );
 }

@@ -2,14 +2,15 @@
     justify-content: center;
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
+    text-align: center;   
     
 }
+
 .tituloreporte h1 {
     justify-content: center;
     font-size: 20;
     font-weight: bold;    
-
+    
 }
 
 .menudesplegable{
@@ -17,29 +18,23 @@
     height: 70vh;
     background-color: rgb(228, 222, 222);
     border-radius: 15px;
-
-
 }
 
 .minimenu{
     width: 10 cm;
-    height: 10vh;
+    height: 13vh;
     background-color: rgb(168, 159, 159);
-   
    border-radius: 10px;  
-
 }
 
 .piepagina{
-    background-color: #4c54af; 
+    background-color: #5a5a61; 
     width: auto;
     height: 40px;
     text-align: center;
     color: white;
     padding: 1px 32px;
     justify-content: center;
-    
-    
     border-radius: 10px;
     margin-top: 5mm;
  
@@ -57,12 +52,155 @@
 .encabezado > .logoprovincia{
     width: 10%;
     height: 100px; 
-    margin: 5px;       
+    margin: 2px;       
 }
 
 .encabezado > .tituloreporte{
     width: 90%;
-    margin: 5px;
+    margin: 1px;
     line-height: 35px;
 }
+
+ .estadisticas{
+    width: 40%;  
+    margin: auto;
+    justify-content: left;
+        
+}
+/* botton Gestion_Talento_Humano*/
+
+.desplegable > .boton{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 8px;
+    width: 270px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+
+ }
+
+.desplegable2 > .boton2{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 16px;
+    width: 270px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.desplegable3 > .boton3{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 17px;
+    width: 270px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 45em;
+    border-radius: 15px;
+ }
+
+
+.links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.links a:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+
+.desplegable:hover .links {
+    display: block;
+}
+
+/* botton Gestion_Financiera*/
+
+.links b{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.links b:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+
+
+.desplegable2:hover .links {
+    display: block;
+}
+.desplegable{
+    position: absolute;
+    margin-left: 1em;
+
+}
+
+.desplegable2{
+    position: absolute;
+    margin-left: 21em;
+}
+.desplegable3{
+    position: absolute;
+    margin-left: 42em;
+
+}
+
+/* botton Gestion_Comunicacion*/
+
+.links c{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.links c:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+.desplegable3:hover .links {
+    display: block;
+}
+
 
